@@ -1,1 +1,11 @@
 
+content:
+  - name: components
+    label: Components
+    format: "json"
+    filename: '{fields.slug}.json'
+    type: collection
+    path: content/components
+    subfolders: true
+    view:
+      fields: [ title, published, date ]
