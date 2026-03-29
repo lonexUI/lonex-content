@@ -1,0 +1,8 @@
+{
+  "name": "Alert",
+  "slug": "alert",
+  "category": "alert",
+  "description": "It alerts Users of something happening lol",
+  "code": "<lds-alert>This is a alert</lds-alert>",
+  "props": "{  \"variant\": \"primary | secondary | tertiary\",  \"size\": \"sm | md | lg | xl\",  \"disabled\": \"boolean\", \"rounded\": \"boolean\"}"
+}
