@@ -1,11 +1,30 @@
-
 content:
   - name: components
     label: Components
-    format: "json"
-    filename: '{fields.slug}.json'
-    type: collection
     path: content/components
+    type: collection
+    format: json
     subfolders: true
+    filename: '{fields.slug}.json'
     view:
-      fields: [ title, published, date ]
+      fields: [ name, category ]
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: slug, label: Slug, type: string }
+      - { name: category, label: Category, type: string }
+      - { name: description, label: Description, type: string }
+      - { name: preview, label: Preview (image/url), type: string }
+      - { name: code, label: Code, type: rich-text }
+      - { name: props, label: Props, type: rich-text }
+
+  - name: tokens
+    label: Design Tokens
+    path: content/tokens
+    type: collection
+    format: json
+    filename: '{fields.name}.json'
+    fields:
+      - { name: name, label: Token Name, type: string }
+      - { name: type, label: Type (color), type: string }
+      - { name: value, label: Value, type: string }
+      - { name: description, label: Description, type: string }
