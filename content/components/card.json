@@ -1,7 +1,7 @@
 {
   "name": "Card",
   "slug": "card",
-  "category": "component",
+  "category": "card",
   "description": "Its a card that can have a lot of different variations",
   "code": "```\n<lds-card>this code is fake btw</lds-card>\n```\n\n"
 }
