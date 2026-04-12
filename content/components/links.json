@@ -1,0 +1,8 @@
+{
+  "name": "Links",
+  "slug": "links",
+  "category": "atoms > links",
+  "description": "Different types of links.",
+  "code": "```\n<lds-link>This is a Link!</lds-link>\n```\n\n",
+  "props": "{\"Color Hover State\": \"boolean\", \"Text Decoration Hover(default)\": \"boolean\"}"
+}
