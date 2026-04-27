@@ -1,0 +1,15 @@
+{
+  "name": "Colors",
+  "tables": [
+    {
+      "name": "Backgrounds",
+      "values": [
+        {
+          "name": "Neutral",
+          "value": "#000000",
+          "description": "Used as the main body background."
+        }
+      ]
+    }
+  ]
+}
