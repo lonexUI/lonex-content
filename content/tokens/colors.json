@@ -10,6 +10,16 @@
           "description": "Used as the main body background."
         }
       ]
+    },
+    {
+      "name": "Content",
+      "values": [
+        {
+          "name": "Neutral",
+          "value": "#f1f1f1f",
+          "description": "Body text color."
+        }
+      ]
     }
   ]
 }
