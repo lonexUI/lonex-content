@@ -3,6 +3,6 @@
   "slug": "links",
   "category": "atoms > links",
   "description": "Different types of links.",
-  "code": "```\n<lds-link>This is a Link!</lds-link>\n```\n\n",
+  "code": "<SDSLink href=\"/\">Go home</SDSLink>\n\n",
   "props": "{\"Color Hover State\": \"boolean\", \"Text Decoration Hover(default)\": \"boolean\"}"
 }
