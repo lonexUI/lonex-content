@@ -1,4 +1,4 @@
 # lonex-content
-Content management for Lonex Design System 
+Content management for Son Design System 
 
 via PagesCMS
